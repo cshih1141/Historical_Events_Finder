@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon ./server/server.js",
-    "react-dev": "webpack -w"
+    "react-dev": "webpack -w",
+    "json-server": "json-server --watch ./server/data/db.json"
   },
   "author": "",
   "license": "ISC",
@@ -14,8 +15,10 @@
     "@babel/core": "^7.8.3",
     "@babel/preset-env": "^7.8.3",
     "@babel/preset-react": "^7.8.3",
+    "axios": "^0.19.1",
     "babel-loader": "^8.0.6",
     "express": "^4.17.1",
+    "json-server": "^0.15.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "webpack": "^4.41.5",
