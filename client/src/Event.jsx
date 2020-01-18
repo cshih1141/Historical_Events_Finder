@@ -2,7 +2,12 @@ import React from 'react';
 
 const Event = ({histEvent}) => (
   <div>
-    {histEvent.description}
+    <div>
+      {histEvent.date}
+    </div>
+    <div>
+      {histEvent.description}
+    </div>
   </div>
 );
 
