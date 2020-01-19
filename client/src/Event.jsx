@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Event = ({histEvent}) => (
-  <div>
+  <div className="events">
     <div>
       {histEvent.date}
     </div>

@@ -1,0 +1,20 @@
+* {
+  margin:0;
+  padding:0;
+  opacity: 1.0;
+}
+
+.events {
+  border-style: solid;
+  border-color: green;
+  border-width: 1px;
+  padding-bottom: 10px;
+  
+  display: grid;
+  grid-template-columns: 600px;
+  width: 600px;
+
+  grid-column-start: 1;
+  grid-column-end: 2;
+  justify-self: center;
+}
